@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+          <h2>Sound Recognizer</h2>
+           <p>Note: The Characters Move When They Hear Barking, Splashing, Mooing, And Background Noises</p>
+           <br> 
+           <br>
+           <button class="btn btn-primary" onclick="start()">Start Identification</button>
+           <h4 id="result">Result:  </h4>
+           <h4 id="confidence">Accuracy:  </h4>
+           <br>
+           <br>
+           <img id="animal1" src="animal1.png" width="300" height="300">
+           <img id="animal2" src="animal2.png" width="300" height="300">
+           <img id="animal3" src="animal3.png"width="300" height="300">
+           <img id="animal4" src="animal4.png" width="300" height="300">
+      </center>
+      <br>
+      <br>
+      <div id="footer">Developed By: Ruhi Patel</div>
+<script src="main.js"></script>
+  </body>
+</html>
